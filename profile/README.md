@@ -66,7 +66,7 @@ Jober 프로젝트는 3개의 레포지토리로 구성되어 있습니다.
 | :--- | :--- | :--- |
 | **[jober-BE](https://github.com/jober3/jober-BE)** | API 서버 및 비즈니스 로직 (Spring) | `Java` `Spring Boot` `JPA` `MySQL` |
 | **[jober-FE](https://github.com/jober3/jober-FE)** | 사용자 웹 애플리케이션 (React) | `TypeScript` `React` `Vite` |
-| **jober-AI** (링크 추가 예정) | 템플릿 생성 AI 모델 서버 (FastAPI) | `Python` `FastAPI`|
+| **[jober-AI](https://github.com/jober3/jober-AI)** | 템플릿 생성 AI 모델 서버 (FastAPI) | `Python` `FastAPI`|
 
 <br>
 
@@ -94,5 +94,11 @@ Jober 프로젝트는 3개의 레포지토리로 구성되어 있습니다.
 ### AI (jober-AI)
 | Category | Technologies |
 | :--- | :--- |
-| **Core** | Python, FastAPI |
-| **Model** | (정리중) |
+| **Core** | Python 3.11.13, FastAPI 0.115.0|
+| **AI Framework** | LangChain 0.1.20 + LangGraph 0.0.25 |
+| **LLM** | Google Gemini 2.5 Pro (Primary), OpenAI GPT-4 (Fallback) |
+| **Vector Database** | ChromaDB 0.5.0 |
+| **NLP** |  KoNLPy 0.6.0 |
+| **Build Tool** | Poetry |
+| **Web Server** |Uvicorn 0.32.0 |
+| **Deployment** | AWS EC2 |
